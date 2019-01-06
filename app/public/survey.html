@@ -20,24 +20,25 @@
 <body>
 
     <div class="container">
+
+    <form method="POST" action="api/friends" >
     
     <h2> Survey Questions</h2>
     <hr>
 
     <h3><strong>About You</strong></h3>
     <h4>Name (Required)</h4>
-    <input type="text" name="" id="name" class="form-control" required>
+    <input type="text" name="YoName" class="form-control" required>
 
    
     <h4>Link to Photo Image (Required)</h4>
-    <input type="text" name="" id="name" class="form-control" required>
+    <input type="text" name="photo" class="form-control" required>
 
     <hr>
 
-    <h3><strong></strong>Question 1</h3><strong></h3>
-    <h4> My mind is always buzzing with unexplored ideas and plans.</h4>
-    <select data-placeholder="" class="chosen-select" id="q1">
-        <option value=""></option>
+    <h3><strong>Question 1</strong></h3>
+    <h4> You enjoy dancing with furry squirrels.</h4>
+    <select name="select1" data-placeholder="" class="chosen-select" id="q1">
         <option value="1">1 (Strongly Disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -45,10 +46,9 @@
         <option value="5">5 (Strongly Agree</option>
     </select>
 
-    <h3><strong></strong>Question 2</h3><strong></h3>
-    <h4> I feel like I'm on an emotional roller coaster.</h4>
-    <select data-placeholder="" class="chosen-select" id="q1">
-        <option value=""></option>
+    <h3><strong>Question 2</strong></h3>
+    <h4>I believe showering shouldn't be everyday.</h4>
+    <select name="select2" data-placeholder="" class="chosen-select" id="q2">
         <option value="1">1 (Strongly Disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -56,10 +56,9 @@
         <option value="5">5 (Strongly Agree</option>
     </select>
     
-    <h3><strong></strong>Question 3</h3></strong></h3>
-    <h4> I present myself in ways that are very different from who I am.</h4>
-    <select data-placeholder="" class="chosen-select" id="q1">
-        <option value=""></option>
+    <h3><strong>Question 3</strong></h3>
+    <h4>Keeping toenail clipping for good luck is an admirable hobby.</h4>
+    <select name="select3" data-placeholder="" class="chosen-select" id="q3">
         <option value="1">1 (Strongly Disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -67,10 +66,9 @@
         <option value="5">5 (Strongly Agree</option>
     </select>
     
-    <h3><strong></strong>Question 4</h3></strong></h3>
-    <h4> I find making friends a breeze.</h4>
-    <select data-placeholder="" class="chosen-select" id="q1">
-        <option value=""></option>
+    <h3><strong>Question 4</strong></h3>
+    <h4> Aliens have landed and are stored at Area 51.</h4>
+    <select name="select4" data-placeholder="" class="chosen-select" id="q4">
         <option value="1">1 (Strongly Disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -78,10 +76,9 @@
         <option value="5">5 (Strongly Agree</option>
     </select>
     
-    <h3><strong></strong>Question 5</h3></strong></h3>
-    <h4> I like to be surrounded by people</h4>
-    <select data-placeholder="" class="chosen-select" id="q1">
-        <option value=""></option>
+    <h3><strong>Question 5</strong></h3>
+    <h4>Changing your underwear causes rashes.</h4>
+    <select name="select5" data-placeholder="" class="chosen-select" id="q5">
         <option value="1">1 (Strongly Disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -89,10 +86,9 @@
         <option value="5">5 (Strongly Agree</option>
     </select>
     
-    <h3><strong></strong>Question 6</h3></strong></h3>
-    <h4> I always think people are judging me negatively.</h4>
-    <select data-placeholder="" class="chosen-select" id="q1">
-        <option value=""></option>
+    <h3><strong>Question 6</strong></h3>
+    <h4>I hold my breath when I am mad.</h4>
+    <select name="select6" data-placeholder="" class="chosen-select" id="q6">
         <option value="1">1 (Strongly Disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -100,10 +96,9 @@
         <option value="5">5 (Strongly Agree</option>
     </select>
     
-    <h3><strong></strong>Question 7</h3></strong></h3>
-    <h4> Generally speaking, you rely more on your experience than your imagination..</h4>
-    <select data-placeholder="" class="chosen-select" id="q1">
-        <option value=""></option>
+    <h3><strong>Question 7</strong></h3>
+    <h4> When someone is sad, I tickle them till they cry.</h4>
+    <select name="select7" data-placeholder="" class="chosen-select" id="q7">
         <option value="1">1 (Strongly Disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -111,10 +106,9 @@
         <option value="5">5 (Strongly Agree</option>
     </select>
     
-    <h3><strong></strong>Question 8</h3></strong></h3>
-    <h4> People can rarely upset you..</h4>
-    <select data-placeholder="" class="chosen-select" id="q1">
-        <option value=""></option>
+    <h3><strong>Question 8</strong></h3>
+    <h4> I keep heads in my fridge.</h4>
+    <select name="select8" data-placeholder="" class="chosen-select" id="q8">
         <option value="1">1 (Strongly Disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -122,10 +116,9 @@
         <option value="5">5 (Strongly Agree</option>
     </select>
     
-    <h3><strong></strong>Question 9</h3></strong></h3>
-    <h4> In a discussion, truth should be more important than people’s sensitivities.</h4>
-    <select data-placeholder="" class="chosen-select" id="q1">
-        <option value=""></option>
+    <h3><strong>Question 9</strong></h3>
+    <h4> Zombies are a real threat to civil society.</h4>
+    <select name="select9" data-placeholder="" class="chosen-select" id="q9">
         <option value="1">1 (Strongly Disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -133,10 +126,9 @@
         <option value="5">5 (Strongly Agree</option>
     </select>
     
-    <h3><strong></strong>Question 10</h3></strong></h3>
-    <h4> You rarely get carried away by fantasies and ideas.</h4>
-    <select data-placeholder="" class="chosen-select" id="q1">
-        <option value=""></option>
+    <h3><strong>Question 10</strong></h3>
+    <h4> I hate surveys.</h4>
+    <select name="select10" data-placeholder="" class="chosen-select" id="q10">
         <option value="1">1 (Strongly Disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -147,7 +139,7 @@
     <br>
 
     <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
-    
+    </form>
 </div>
 
 
